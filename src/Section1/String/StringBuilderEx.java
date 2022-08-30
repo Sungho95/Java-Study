@@ -1,3 +1,5 @@
+package Section1.String;
+
 public class StringBuilderEx {
     public static void main(String[] args) {
         StringBuilder stringBuilder = new StringBuilder();

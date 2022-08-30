@@ -1,3 +1,5 @@
+package Section1.InputAndOutput;
+
 import java.util.Scanner;
 
 public class InputEx {

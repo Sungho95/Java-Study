@@ -1,3 +1,5 @@
+package Section1.String;
+
 public class IntToStringEx {
     public static void main(String args[]){
         // i = 정수형 데이터 타입, s = 문자열 데이터 타입

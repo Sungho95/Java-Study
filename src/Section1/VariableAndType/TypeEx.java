@@ -1,3 +1,5 @@
+package Section1.VariableAndType;
+
 public class TypeEx {
     public static void main(String[] args) {
         int primitive = 1;
