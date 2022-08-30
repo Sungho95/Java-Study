@@ -4,10 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6581073-4368-43b2-a862-7ceba7234bdc" name="Changes" comment="나는 이걸 해보았다2">
-      <change afterPath="$PROJECT_DIR$/src/TypeEx.java" afterDir="false" />
+    <list default="true" id="a6581073-4368-43b2-a862-7ceba7234bdc" name="Changes" comment="2022-08-29">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CharEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InputEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IntToStringEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OperatorEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StringBufferEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StringBuilderEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StringEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StringToIntEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StringTokenizerEx.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TypeEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TypeEx.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,28 +46,43 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TypeEx">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+  <component name="RunManager" selected="Application.OperatorEx">
+    <configuration name="OperatorEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OperatorEx" />
       <module name="Java-Study" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TypeEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TypeEx" />
+    <configuration name="StringBufferEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringBufferEx" />
       <module name="Java-Study" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test" />
+    <configuration name="StringBuilderEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringBuilderEx" />
+      <module name="Java-Study" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringEx" />
+      <module name="Java-Study" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringTokenizerEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringTokenizerEx" />
       <module name="Java-Study" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -66,9 +90,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TypeEx" />
-        <item itemvalue="Application.test" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.OperatorEx" />
+        <item itemvalue="Application.StringBufferEx" />
+        <item itemvalue="Application.StringBuilderEx" />
+        <item itemvalue="Application.StringTokenizerEx" />
+        <item itemvalue="Application.StringEx" />
       </list>
     </recent_temporary>
   </component>
@@ -95,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661750767228</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="2022-08-29">
+      <created>1661764533816</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1661764533816</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -112,6 +145,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="나는 이걸 해보았다." />
     <MESSAGE value="나는 이걸 해보았다2" />
-    <option name="LAST_COMMIT_MESSAGE" value="나는 이걸 해보았다2" />
+    <MESSAGE value="2022-08-29" />
+    <option name="LAST_COMMIT_MESSAGE" value="2022-08-29" />
   </component>
 </project>
