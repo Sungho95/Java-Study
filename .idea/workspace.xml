@@ -4,10 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6581073-4368-43b2-a862-7ceba7234bdc" name="Changes" comment="2022-08-31">
-      <change afterPath="$PROJECT_DIR$/src/Section1/Array/ArrTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Section1/Array/ArrayEx.java" afterDir="false" />
+    <list default="true" id="a6581073-4368-43b2-a862-7ceba7234bdc" name="Changes" comment="2022-09-01">
+      <change afterPath="$PROJECT_DIR$/src/Section1/ClassAndObject/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Section1/ClassAndObject/CarTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Section1/FieldAndMethod/CarTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Section1/FieldAndMethod/StaticFieldTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Section1/FieldAndMethod/Variable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Section1/FieldAndMethod/staticEx.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Section1/Array/ArrTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Section1/Array/ArrTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +36,7 @@
   <component name="ProjectId" id="2E0cWk2dhEWTw9CYCEe1Sc1rhDc" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
@@ -37,18 +44,19 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/git/Java-Study&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ArrTest">
-    <configuration name="ArrTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Section1.Array.ArrTest" />
+  <component name="RunManager" selected="Application.test">
+    <configuration name="Car" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Section1.ClassAndObject.Car" />
       <module name="Java-Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Section1.Array.*" />
+          <option name="PATTERN" value="Section1.ClassAndObject.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -56,12 +64,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Section1.Array.ArrayEx" />
+    <configuration name="CarTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Section1.FieldAndMethod.CarTest2" />
       <module name="Java-Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Section1.Array.*" />
+          <option name="PATTERN" value="Section1.FieldAndMethod.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,12 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BreakAndContinue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Section1.ForAndWhile.BreakAndContinue" />
+    <configuration name="StaticFieldTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Section1.FieldAndMethod.StaticFieldTest" />
       <module name="Java-Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Section1.ForAndWhile.*" />
+          <option name="PATTERN" value="Section1.FieldAndMethod.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DoWhileEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Section1.ForAndWhile.DoWhileEx" />
+    <configuration name="staticEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Section1.FieldAndMethod.staticEx" />
       <module name="Java-Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Section1.ForAndWhile.*" />
+          <option name="PATTERN" value="Section1.FieldAndMethod.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ArrTest" />
-        <item itemvalue="Application.ArrayEx" />
         <item itemvalue="Application.test" />
-        <item itemvalue="Application.BreakAndContinue" />
-        <item itemvalue="Application.DoWhileEx" />
+        <item itemvalue="Application.Car" />
+        <item itemvalue="Application.Section1.FieldAndMethod.staticEx" />
+        <item itemvalue="Application.CarTest2" />
+        <item itemvalue="Application.Section1.FieldAndMethod.StaticFieldTest" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661948046880</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="2022-09-01">
+      <created>1661962074288</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1661962074288</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -183,6 +198,7 @@
     <MESSAGE value="2022-08-29" />
     <MESSAGE value="2022-08-30" />
     <MESSAGE value="2022-08-31" />
-    <option name="LAST_COMMIT_MESSAGE" value="2022-08-31" />
+    <MESSAGE value="2022-09-01" />
+    <option name="LAST_COMMIT_MESSAGE" value="2022-09-01" />
   </component>
 </project>
