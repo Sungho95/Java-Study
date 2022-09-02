@@ -1,6 +1,6 @@
 package Section1.ForAndWhile;
 
-public class whileEx {
+public class WhileEx {
     public static void main(String[] args) {
         int i = 1;
         int result = 0;

@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6581073-4368-43b2-a862-7ceba7234bdc" name="Changes" comment="2022-09-01">
-      <change afterPath="$PROJECT_DIR$/src/Section1/ClassAndObject/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Section1/ClassAndObject/CarTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Section1/FieldAndMethod/CarTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Section1/FieldAndMethod/StaticFieldTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Section1/FieldAndMethod/Variable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Section1/FieldAndMethod/staticEx.java" afterDir="false" />
+    <list default="true" id="a6581073-4368-43b2-a862-7ceba7234bdc" name="Changes" comment="2022-09-02">
+      <change afterPath="$PROJECT_DIR$/src/Section1/Constructor/ConstructorEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Section1/Constructor/ConstructorEx2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Section1/Constructor/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Section1/Array/ArrTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Section1/Array/ArrTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +45,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.test">
+  <component name="RunManager" selected="Application.ConstructorEx2">
     <configuration name="Car" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Section1.ClassAndObject.Car" />
       <module name="Java-Study" />
@@ -64,12 +59,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CarTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Section1.FieldAndMethod.CarTest2" />
+    <configuration name="ConstructorEx2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Section1.Constructor.ConstructorEx2" />
       <module name="Java-Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Section1.FieldAndMethod.*" />
+          <option name="PATTERN" value="Section1.Constructor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StaticFieldTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Section1.FieldAndMethod.StaticFieldTest" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Section1.Constructor.Test" />
       <module name="Java-Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Section1.FieldAndMethod.*" />
+          <option name="PATTERN" value="Section1.Constructor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConstructorEx2" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.test" />
         <item itemvalue="Application.Car" />
         <item itemvalue="Application.Section1.FieldAndMethod.staticEx" />
-        <item itemvalue="Application.CarTest2" />
-        <item itemvalue="Application.Section1.FieldAndMethod.StaticFieldTest" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661962074288</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="2022-09-02">
+      <created>1662102691088</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1662102691088</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -199,6 +201,7 @@
     <MESSAGE value="2022-08-30" />
     <MESSAGE value="2022-08-31" />
     <MESSAGE value="2022-09-01" />
-    <option name="LAST_COMMIT_MESSAGE" value="2022-09-01" />
+    <MESSAGE value="2022-09-02" />
+    <option name="LAST_COMMIT_MESSAGE" value="2022-09-02" />
   </component>
 </project>
