@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6581073-4368-43b2-a862-7ceba7234bdc" name="Changes" comment="2022-09-02">
-      <change afterPath="$PROJECT_DIR$/src/Section1/Constructor/ConstructorEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Section1/Constructor/ConstructorEx2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Section1/Constructor/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Section1/Inheritance/InheritanceEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Section1/Inheritance/PersonEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Section1/innerClass/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Section1/FieldAndMethod/StaticEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Section1/FieldAndMethod/StaticEx.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,13 +46,13 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ConstructorEx2">
-    <configuration name="Car" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Section1.ClassAndObject.Car" />
+  <component name="RunManager" selected="Application.PersonEx">
+    <configuration name="ConstructorEx2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Section1.Constructor.ConstructorEx2" />
       <module name="Java-Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Section1.ClassAndObject.*" />
+          <option name="PATTERN" value="Section1.Constructor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -59,12 +60,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConstructorEx2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Section1.Constructor.ConstructorEx2" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Section1.innerClass.Main" />
       <module name="Java-Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Section1.Constructor.*" />
+          <option name="PATTERN" value="Section1.innerClass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Section1.Inheritance.PersonEx" />
+      <module name="Java-Study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Section1.Inheritance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,20 +112,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test" />
-      <module name="Java-Study" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PersonEx" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.staticEx" />
         <item itemvalue="Application.ConstructorEx2" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.test" />
-        <item itemvalue="Application.Car" />
-        <item itemvalue="Application.Section1.FieldAndMethod.staticEx" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662102691088</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="2022-09-02">
+      <created>1662107629214</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1662107629214</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
