@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6581073-4368-43b2-a862-7ceba7234bdc" name="Changes" comment="2022-09-02">
-      <change afterPath="$PROJECT_DIR$/src/Section1/Inheritance/InheritanceEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Section1/Inheritance/PersonEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Section1/innerClass/Main.java" afterDir="false" />
+    <list default="true" id="a6581073-4368-43b2-a862-7ceba7234bdc" name="Changes" comment="2022-09-04">
+      <change afterPath="$PROJECT_DIR$/src/Section1/Inheritance/CompositeEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Section1/Inheritance/MethodOverridingEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Section1/Inheritance/Super.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Section1/Inheritance/SuperMethodEx.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Section1/FieldAndMethod/StaticEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Section1/FieldAndMethod/StaticEx.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,13 +46,13 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.PersonEx">
-    <configuration name="ConstructorEx2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Section1.Constructor.ConstructorEx2" />
+  <component name="RunManager" selected="Application.Super">
+    <configuration name="Dog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Section1.Inheritance.Dog" />
       <module name="Java-Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Section1.Constructor.*" />
+          <option name="PATTERN" value="Section1.Inheritance.Dog" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -60,12 +60,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Section1.innerClass.Main" />
+    <configuration name="MethodOverridingEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Section1.Inheritance.MethodOverridingEx" />
       <module name="Java-Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Section1.innerClass.*" />
+          <option name="PATTERN" value="Section1.Inheritance.Dog" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,8 +73,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Section1.Inheritance.PersonEx" />
+    <configuration name="Section1.Inheritance.CompositeEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Section1.Inheritance.CompositeEx" />
+      <module name="Java-Study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Section1.Inheritance.Dog" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Super" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Section1.Inheritance.Super" />
       <module name="Java-Study" />
       <extension name="coverage">
         <pattern>
@@ -86,25 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Section1.Constructor.Test" />
+    <configuration name="SuperMethodEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Section1.Inheritance.SuperMethodEx" />
       <module name="Java-Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Section1.Constructor.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="staticEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Section1.FieldAndMethod.staticEx" />
-      <module name="Java-Study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Section1.FieldAndMethod.*" />
+          <option name="PATTERN" value="Section1.Inheritance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PersonEx" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.staticEx" />
-        <item itemvalue="Application.ConstructorEx2" />
-        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Super" />
+        <item itemvalue="Application.SuperMethodEx" />
+        <item itemvalue="Application.Section1.Inheritance.MethodOverridingEx" />
+        <item itemvalue="Application.Dogs" />
+        <item itemvalue="Application.Section1.Inheritance.CompositeEx" />
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662107629214</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="2022-09-04">
+      <created>1662285600251</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1662285600252</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -216,6 +223,7 @@
     <MESSAGE value="2022-08-31" />
     <MESSAGE value="2022-09-01" />
     <MESSAGE value="2022-09-02" />
-    <option name="LAST_COMMIT_MESSAGE" value="2022-09-02" />
+    <MESSAGE value="2022-09-04" />
+    <option name="LAST_COMMIT_MESSAGE" value="2022-09-04" />
   </component>
 </project>
