@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6581073-4368-43b2-a862-7ceba7234bdc" name="Changes" comment="2022-09-04">
-      <change afterPath="$PROJECT_DIR$/src/Section1/accessModifier/TestClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Section1/accessModifier2/AccessModifierEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Section1/gettersetter/GetterSetterEx.java" afterDir="false" />
+    <list default="true" id="a6581073-4368-43b2-a862-7ceba7234bdc" name="Changes" comment="2022-09-05">
+      <change afterPath="$PROJECT_DIR$/src/Section1/Polymorphism/InstanceOfEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Section1/Polymorphism/MainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Section1/Polymorphism/PolyEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Section1/Polymorphism/PolymorphismEx.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Section1/gettersetter/Encapsulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Section1/gettersetter/Encapsulation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,26 +47,13 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="AccessModifierEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Section1.accessModifier.AccessModifierEx" />
+  <component name="RunManager" selected="Application.PolyEx">
+    <configuration name="InstanceOfEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Section1.Polymorphism.InstanceOfEx" />
       <module name="Java-Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Section1.accessModifier.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GetterSetterEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Section1.gettersetter.GetterSetterEx" />
-      <module name="Java-Study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Section1.gettersetter.*" />
+          <option name="PATTERN" value="Section1.Polymorphism.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Section1.accessModifier2.AccessModifierEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Section1.accessModifier2.AccessModifierEx" />
+    <configuration name="MainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Section1.Polymorphism.MainTest" />
       <module name="Java-Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Section1.accessModifier2.*" />
+          <option name="PATTERN" value="Section1.Polymorphism.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +87,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Super" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Section1.Inheritance.Super" />
+    <configuration name="PolyEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Section1.Polymorphism.PolyEx" />
       <module name="Java-Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Section1.Inheritance.*" />
+          <option name="PATTERN" value="Section1.Polymorphism.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PolymorphismEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Section1.Polymorphism.PolymorphismEx" />
+      <module name="Java-Study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Section1.Polymorphism.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PolyEx" />
+        <item itemvalue="Application.InstanceOfEx" />
+        <item itemvalue="Application.MainTest" />
+        <item itemvalue="Application.PolymorphismEx" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.GetterSetterEx" />
-        <item itemvalue="Application.Section1.accessModifier2.AccessModifierEx" />
-        <item itemvalue="Application.AccessModifierEx" />
-        <item itemvalue="Application.Super" />
       </list>
     </recent_temporary>
   </component>
@@ -202,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662285600252</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="2022-09-05">
+      <created>1662345116738</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1662345116738</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -225,6 +232,7 @@
     <MESSAGE value="2022-09-01" />
     <MESSAGE value="2022-09-02" />
     <MESSAGE value="2022-09-04" />
-    <option name="LAST_COMMIT_MESSAGE" value="2022-09-04" />
+    <MESSAGE value="2022-09-05" />
+    <option name="LAST_COMMIT_MESSAGE" value="2022-09-05" />
   </component>
 </project>
