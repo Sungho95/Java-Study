@@ -5,7 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6581073-4368-43b2-a862-7ceba7234bdc" name="Changes" comment="2022-09-12">
+      <change afterPath="$PROJECT_DIR$/src/Section1/enumTest/EnumTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Section1/exceptionHandling/ErrorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Section1/exceptionHandling/ExceptionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Section1/exceptionHandling/ThrowsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Section1/generic/PhoneEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Section1/listEx/ArrayListEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Section1/listEx/IteratorEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Section1/listEx/LinkedListEx.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Section1/generic/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Section1/generic/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,24 +42,24 @@
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/git/Java-Study",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/git/Java-Study&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.GenericClass">
-    <configuration name="GenericClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Section1.generic.GenericClass" />
+}</component>
+  <component name="RunManager" selected="Application.IteratorEx">
+    <configuration name="ArrayListEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Section1.listEx.ArrayListEx" />
       <module name="Java-Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Section1.generic.*" />
+          <option name="PATTERN" value="Section1.listEx.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -58,12 +67,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GreetingsEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Section1.abstraction.GreetingsEx" />
+    <configuration name="ExceptionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Section1.exceptionHandling.ExceptionTest" />
       <module name="Java-Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Section1.abstraction.*" />
+          <option name="PATTERN" value="Section1.exceptionHandling.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GreetingsEx2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Section1.abstraction.GreetingsEx2" />
+    <configuration name="IteratorEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Section1.listEx.IteratorEx" />
       <module name="Java-Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Section1.abstraction.*" />
+          <option name="PATTERN" value="Section1.listEx.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderFood" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Section1.abstraction.OrderFood" />
+    <configuration name="LinkedListEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Section1.listEx.LinkedListEx" />
       <module name="Java-Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Section1.abstraction.*" />
+          <option name="PATTERN" value="Section1.listEx.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Section1.generic.Test" />
+    <configuration name="ThrowsException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Section1.exceptionHandling.ThrowsException" />
       <module name="Java-Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Section1.generic.*" />
+          <option name="PATTERN" value="Section1.exceptionHandling.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GenericClass" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.OrderFood" />
-        <item itemvalue="Application.GreetingsEx" />
-        <item itemvalue="Application.GreetingsEx2" />
+        <item itemvalue="Application.IteratorEx" />
+        <item itemvalue="Application.LinkedListEx" />
+        <item itemvalue="Application.ArrayListEx" />
+        <item itemvalue="Application.ThrowsException" />
+        <item itemvalue="Application.ExceptionTest" />
       </list>
     </recent_temporary>
   </component>
@@ -234,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662986297793</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="2022-09-12">
+      <created>1662992061775</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1662992061775</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

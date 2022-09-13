@@ -68,35 +68,35 @@ interface Cellphone {
 
 }
 
-class Galaxy implements Cellphone {
-    Galaxy() {
-        System.out.println("갤럭시");
-    }
-}
-
-class IPhone implements Cellphone {
-    IPhone() {
-        System.out.println("아이폰");
-    }
-}
-
-// Cellphone 클래스의 하위 클래스만 지정할 수 있음
-class Test<T extends Galaxy> {
-    private T model;
-
-    public T getModel() {
-        return model;
-    }
-
-    public void setModel(T model) {
-        this.model = model;
-    }
-
-    public static void main(String[] args) {
-        Test<Galaxy> galaxy = new Test<>();
-//        Test<IPhone> iphone = new Test<>();
-
-        galaxy.setModel(new Galaxy());
-//        iphone.setModel(new IPhone());
-    }
-}
+//class Galaxy implements Cellphone {
+//    Galaxy() {
+//        System.out.println("갤럭시");
+//    }
+//}
+//
+//class IPhone implements Cellphone {
+//    IPhone() {
+//        System.out.println("아이폰");
+//    }
+//}
+//
+//// Cellphone 클래스의 하위 클래스만 지정할 수 있음
+//class Test<T extends Galaxy> {
+//    private T model;
+//
+//    public T getModel() {
+//        return model;
+//    }
+//
+//    public void setModel(T model) {
+//        this.model = model;
+//    }
+//
+//    public static void main(String[] args) {
+//        Test<Galaxy> galaxy = new Test<>();
+////        Test<IPhone> iphone = new Test<>();
+//
+//        galaxy.setModel(new Galaxy());
+////        iphone.setModel(new IPhone());
+//    }
+//}
