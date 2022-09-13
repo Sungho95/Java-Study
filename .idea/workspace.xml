@@ -4,17 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6581073-4368-43b2-a862-7ceba7234bdc" name="Changes" comment="2022-09-12">
-      <change afterPath="$PROJECT_DIR$/src/Section1/enumTest/EnumTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Section1/exceptionHandling/ErrorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Section1/exceptionHandling/ExceptionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Section1/exceptionHandling/ThrowsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Section1/generic/PhoneEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Section1/listEx/ArrayListEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Section1/listEx/IteratorEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Section1/listEx/LinkedListEx.java" afterDir="false" />
+    <list default="true" id="a6581073-4368-43b2-a862-7ceba7234bdc" name="Changes" comment="2022-09-13">
+      <change afterPath="$PROJECT_DIR$/src/Section1/hashSetEx/HashMapEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Section1/hashSetEx/HashSetEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Section1/hashSetEx/HashTableEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Section1/hashSetEx/TreeMapEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Section1/hashSetEx/TreeSetEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Section1/wrapperClass/WrapperClassEx.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Section1/generic/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Section1/generic/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,13 +50,13 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.IteratorEx">
-    <configuration name="ArrayListEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Section1.listEx.ArrayListEx" />
+  <component name="RunManager" selected="Application.WrapperClassEx">
+    <configuration name="HashMapEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Section1.hashSetEx.HashMapEx" />
       <module name="Java-Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Section1.listEx.*" />
+          <option name="PATTERN" value="Section1.hashSetEx.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,12 +64,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExceptionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Section1.exceptionHandling.ExceptionTest" />
+    <configuration name="HashTableEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Section1.hashSetEx.HashTableEx" />
       <module name="Java-Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Section1.exceptionHandling.*" />
+          <option name="PATTERN" value="Section1.hashSetEx.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,12 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IteratorEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Section1.listEx.IteratorEx" />
+    <configuration name="TreeMapEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Section1.hashSetEx.TreeMapEx" />
       <module name="Java-Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Section1.listEx.*" />
+          <option name="PATTERN" value="Section1.hashSetEx.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Section1.listEx.LinkedListEx" />
+    <configuration name="TreeSetEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Section1.hashSetEx.TreeSetEx" />
       <module name="Java-Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Section1.listEx.*" />
+          <option name="PATTERN" value="Section1.hashSetEx.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThrowsException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Section1.exceptionHandling.ThrowsException" />
+    <configuration name="WrapperClassEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Section1.wrapperClass.WrapperClassEx" />
       <module name="Java-Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Section1.exceptionHandling.*" />
+          <option name="PATTERN" value="Section1.wrapperClass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.IteratorEx" />
-        <item itemvalue="Application.LinkedListEx" />
-        <item itemvalue="Application.ArrayListEx" />
-        <item itemvalue="Application.ThrowsException" />
-        <item itemvalue="Application.ExceptionTest" />
+        <item itemvalue="Application.WrapperClassEx" />
+        <item itemvalue="Application.TreeMapEx" />
+        <item itemvalue="Application.TreeSetEx" />
+        <item itemvalue="Application.HashTableEx" />
+        <item itemvalue="Application.HashMapEx" />
       </list>
     </recent_temporary>
   </component>
@@ -250,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662992061775</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="2022-09-13">
+      <created>1663053242132</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1663053242132</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -276,6 +280,7 @@
     <MESSAGE value="2022-09-05" />
     <MESSAGE value="2022-09-06" />
     <MESSAGE value="2022-09-12" />
-    <option name="LAST_COMMIT_MESSAGE" value="2022-09-12" />
+    <MESSAGE value="2022-09-13" />
+    <option name="LAST_COMMIT_MESSAGE" value="2022-09-13" />
   </component>
 </project>
