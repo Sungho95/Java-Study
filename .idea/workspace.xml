@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6581073-4368-43b2-a862-7ceba7234bdc" name="Changes" comment="2022-09-13">
-      <change afterPath="$PROJECT_DIR$/src/Section1/hashSetEx/HashMapEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Section1/hashSetEx/HashSetEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Section1/hashSetEx/HashTableEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Section1/hashSetEx/TreeMapEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Section1/hashSetEx/TreeSetEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Section1/wrapperClass/WrapperClassEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Section1/annotationEx/CustomAnnotation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,13 +46,20 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.WrapperClassEx">
-    <configuration name="HashMapEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Section1.hashSetEx.HashMapEx" />
+  <component name="RunManager" selected="Application.PrintMyInfo">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Java-Study" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Section1.annotationEx.MyInfo" />
       <module name="Java-Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Section1.hashSetEx.*" />
+          <option name="PATTERN" value="Section1.annotationEx.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -64,12 +67,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashTableEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Section1.hashSetEx.HashTableEx" />
+    <configuration name="PrintMyInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Section1.annotationEx.PrintMyInfo" />
       <module name="Java-Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Section1.hashSetEx.*" />
+          <option name="PATTERN" value="Section1.annotationEx.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,19 +82,6 @@
     </configuration>
     <configuration name="TreeMapEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Section1.hashSetEx.TreeMapEx" />
-      <module name="Java-Study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Section1.hashSetEx.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TreeSetEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Section1.hashSetEx.TreeSetEx" />
       <module name="Java-Study" />
       <extension name="coverage">
         <pattern>
@@ -118,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrintMyInfo" />
+        <item itemvalue="Application.MyInfo" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.WrapperClassEx" />
         <item itemvalue="Application.TreeMapEx" />
-        <item itemvalue="Application.TreeSetEx" />
-        <item itemvalue="Application.HashTableEx" />
-        <item itemvalue="Application.HashMapEx" />
       </list>
     </recent_temporary>
   </component>
@@ -254,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663053242132</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="2022-09-13">
+      <created>1663074899149</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1663074899149</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
