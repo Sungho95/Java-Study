@@ -4,8 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6581073-4368-43b2-a862-7ceba7234bdc" name="Changes" comment="2022-09-13">
-      <change afterPath="$PROJECT_DIR$/src/Section1/annotationEx/CustomAnnotation.java" afterDir="false" />
+    <list default="true" id="a6581073-4368-43b2-a862-7ceba7234bdc" name="Changes" comment="2022-09-14">
+      <change afterPath="$PROJECT_DIR$/src/Section1/fileInputOutput/FileEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Section1/fileInputOutput/FileNameChange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Section1/fileInputOutput/FileReaderEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Section1/fileInputOutput/FileWriterEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Section1/fileInputOutput/InputStreamEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Section1/fileInputOutput/OutputStreamEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Section1/lambdaExpression/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Section1/lambdaExpression/FunInterfaceEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Section1/lambdaExpression/LambdaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Section1/lambdaExpression/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Section1/optional/MethodChainingEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Section1/optional/OptionalEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Section1/optional/OptionalExam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Section1/stream/CollectEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Section1/stream/FilteringEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Section1/stream/ForEachEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Section1/stream/ListEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Section1/stream/MapEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Section1/stream/MatchEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Section1/stream/OthersEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Section1/stream/ParallelEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Section1/stream/PeekEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Section1/stream/ReduceEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Section1/stream/SortedEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Section1/stream/StreamEx.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -46,20 +70,13 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.PrintMyInfo">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Java-Study" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Section1.annotationEx.MyInfo" />
+  <component name="RunManager" selected="Application.FileNameChange">
+    <configuration name="FileEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Section1.fileInputOutput.FileEx" />
       <module name="Java-Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Section1.annotationEx.*" />
+          <option name="PATTERN" value="Section1.fileInputOutput.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintMyInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Section1.annotationEx.PrintMyInfo" />
+    <configuration name="FileNameChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Section1.fileInputOutput.FileNameChange" />
       <module name="Java-Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Section1.annotationEx.*" />
+          <option name="PATTERN" value="Section1.fileInputOutput.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeMapEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Section1.hashSetEx.TreeMapEx" />
+    <configuration name="FileReaderEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Section1.fileInputOutput.FileReaderEx" />
       <module name="Java-Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Section1.hashSetEx.*" />
+          <option name="PATTERN" value="Section1.fileInputOutput.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +110,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WrapperClassEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Section1.wrapperClass.WrapperClassEx" />
+    <configuration name="FileWriterEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Section1.fileInputOutput.FileWriterEx" />
       <module name="Java-Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Section1.wrapperClass.*" />
+          <option name="PATTERN" value="Section1.fileInputOutput.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InputStreamEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Section1.fileInputOutput.InputStreamEx" />
+      <module name="Java-Study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Section1.fileInputOutput.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PrintMyInfo" />
-        <item itemvalue="Application.MyInfo" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.WrapperClassEx" />
-        <item itemvalue="Application.TreeMapEx" />
+        <item itemvalue="Application.FileNameChange" />
+        <item itemvalue="Application.FileEx" />
+        <item itemvalue="Application.InputStreamEx" />
+        <item itemvalue="Application.FileWriterEx" />
+        <item itemvalue="Application.FileReaderEx" />
       </list>
     </recent_temporary>
   </component>
@@ -251,7 +281,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663074899149</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="2022-09-14">
+      <created>1663156958940</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1663156958940</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -278,6 +315,7 @@
     <MESSAGE value="2022-09-06" />
     <MESSAGE value="2022-09-12" />
     <MESSAGE value="2022-09-13" />
-    <option name="LAST_COMMIT_MESSAGE" value="2022-09-13" />
+    <MESSAGE value="2022-09-14" />
+    <option name="LAST_COMMIT_MESSAGE" value="2022-09-14" />
   </component>
 </project>
