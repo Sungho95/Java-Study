@@ -4,32 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6581073-4368-43b2-a862-7ceba7234bdc" name="Changes" comment="2022-09-14">
-      <change afterPath="$PROJECT_DIR$/src/Section1/fileInputOutput/FileEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Section1/fileInputOutput/FileNameChange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Section1/fileInputOutput/FileReaderEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Section1/fileInputOutput/FileWriterEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Section1/fileInputOutput/InputStreamEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Section1/fileInputOutput/OutputStreamEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Section1/lambdaExpression/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Section1/lambdaExpression/FunInterfaceEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Section1/lambdaExpression/LambdaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Section1/lambdaExpression/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Section1/optional/MethodChainingEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Section1/optional/OptionalEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Section1/optional/OptionalExam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Section1/stream/CollectEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Section1/stream/FilteringEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Section1/stream/ForEachEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Section1/stream/ListEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Section1/stream/MapEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Section1/stream/MatchEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Section1/stream/OthersEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Section1/stream/ParallelEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Section1/stream/PeekEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Section1/stream/ReduceEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Section1/stream/SortedEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Section1/stream/StreamEx.java" afterDir="false" />
+    <list default="true" id="a6581073-4368-43b2-a862-7ceba7234bdc" name="Changes" comment="2022-09-15">
+      <change afterPath="$PROJECT_DIR$/src/Section1/thread/InterruptEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Section1/thread/JoinEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Section1/thread/ThreadEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Section1/thread/ThreadEx2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Section1/thread/ThreadEx3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Section1/thread/ThreadName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Section1/thread/ThreadName2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Section1/thread/ThreadSyncEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Section1/thread/WaitAndNotifyEx.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -70,13 +54,13 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.FileNameChange">
-    <configuration name="FileEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Section1.fileInputOutput.FileEx" />
+  <component name="RunManager" selected="Application.WaitAndNotifyEx">
+    <configuration name="InterruptEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Section1.thread.InterruptEx" />
       <module name="Java-Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Section1.fileInputOutput.*" />
+          <option name="PATTERN" value="Section1.thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,12 +68,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileNameChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Section1.fileInputOutput.FileNameChange" />
+    <configuration name="JoinEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Section1.thread.JoinEx" />
       <module name="Java-Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Section1.fileInputOutput.*" />
+          <option name="PATTERN" value="Section1.thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileReaderEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Section1.fileInputOutput.FileReaderEx" />
+    <configuration name="ThreadEx3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Section1.thread.ThreadEx3" />
       <module name="Java-Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Section1.fileInputOutput.*" />
+          <option name="PATTERN" value="Section1.thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileWriterEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Section1.fileInputOutput.FileWriterEx" />
+    <configuration name="ThreadSyncEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Section1.thread.ThreadSyncEx" />
       <module name="Java-Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Section1.fileInputOutput.*" />
+          <option name="PATTERN" value="Section1.thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InputStreamEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Section1.fileInputOutput.InputStreamEx" />
+    <configuration name="WaitAndNotifyEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Section1.thread.WaitAndNotifyEx" />
       <module name="Java-Study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Section1.fileInputOutput.*" />
+          <option name="PATTERN" value="Section1.thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FileNameChange" />
-        <item itemvalue="Application.FileEx" />
-        <item itemvalue="Application.InputStreamEx" />
-        <item itemvalue="Application.FileWriterEx" />
-        <item itemvalue="Application.FileReaderEx" />
+        <item itemvalue="Application.WaitAndNotifyEx" />
+        <item itemvalue="Application.JoinEx" />
+        <item itemvalue="Application.InterruptEx" />
+        <item itemvalue="Application.ThreadSyncEx" />
+        <item itemvalue="Application.ThreadEx3" />
       </list>
     </recent_temporary>
   </component>
@@ -288,7 +272,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663156958940</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="2022-09-15">
+      <created>1663242104278</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1663242104278</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -316,6 +307,7 @@
     <MESSAGE value="2022-09-12" />
     <MESSAGE value="2022-09-13" />
     <MESSAGE value="2022-09-14" />
-    <option name="LAST_COMMIT_MESSAGE" value="2022-09-14" />
+    <MESSAGE value="2022-09-15" />
+    <option name="LAST_COMMIT_MESSAGE" value="2022-09-15" />
   </component>
 </project>

@@ -3,15 +3,9 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
-@Deprecated
 
 public class Main {
     public static void main(String[] args) {
-        String str = "hello";
-
-        if (str.length() == 0) {
-            System.out.println("아무것도 없음");
-        }
 
 //        HashMap<Character, Integer> hash = new HashMap<>();
 //        // h -> e -> l -> l -> o
