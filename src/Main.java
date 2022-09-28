@@ -4,7 +4,60 @@ import java.util.*;
 import java.util.*;
 
 public class Main {
+//    public Integer boardGame(int[][] board, String operation) {
+//        // TODO:
+//        // U = (2, 2) -> (1, 2)
+//        // D = (2, 2) -> (3, 2)
+//        // L = (2, 2) -> (2, 1)
+//        // R = (2, 2) -> (2, 3)
+//
+//        // U D L R
+//        int[] dx = {-1, 1, 0, 0};
+//        int[] dy = {0, 0, -1, 1};
+//        char[] type = {'U', 'D', 'L', 'R'};
+//
+//        // 스코어를 담을 변수
+//        int score = 0;
+//
+//        // 현재 위치
+//        int x = 0;
+//        int y = 0;
+//        score += board[x][y];
+//
+//        // operation.charAt(i)
+//        for (int i = 0; i < operation.length(); i++) {
+//            int idx = Arrays.asList(type).indexOf(operation.charAt(i));
+//            x = x + dx[idx];
+//            y = y + dy[idx];
+//            if (x >= 0 && y >= 0 && x < board.length && y < board.length) {
+//                score += board[x][y];
+//            } else {
+//                return null;
+//            }
+//        }
+//        return score;
+//    }
     public static void main(String[] args) {
+        int[] arr = {4, 3, 2, 1};
+        ArrayList<Integer> arrList = new ArrayList<>();
+
+//        int[][] board = new int[][]{
+//                {0, 0, 0, 0, 0},
+//                {0, 0, 1, 0, 0},
+//                {0, 0, 0, 0, 0},
+//                {0, 0, 0, 1, 0},
+//                {0, 0, 0, 0, 0}
+//        };
+//
+//        String operation = "DDRRRUDUDUD";
+//
+//        // 스코어를 담을 변수
+//        int score = 0;
+//
+//        // 현재 위치
+//        int x = 0;
+//        int y = 0;
+//        score += board[x][y];
 
     }
 }
